@@ -16,7 +16,7 @@ const MovieCard = (item) => {
           />
         </div>
         <div className={styles.card_data}>
-          <h1 className={styles.card_title}>{title.substring(0, 18)}</h1>
+          <h3 className={styles.card_title}>{title.substring(0, 18)}</h3>
           <p>{synopsis.substring(0, 100)} ...</p>
           <Link href={`/movie/${id}`}>
             <button>Read More</button>

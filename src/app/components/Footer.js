@@ -30,7 +30,7 @@ const Footer = () => {
                     <div className={footerStyles['link-boxes']}>
                         <ul className={footerStyles.box}>
                             <li className={footerStyles.link_name}>Company</li>
-                            <li><a href="#">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li><a href="#">Contact us</a></li>
                             <li><a href="#">About us</a></li>
                             <li><a href="#">Get started</a></li>
@@ -47,17 +47,11 @@ const Footer = () => {
                             <li><a href="#">Profile</a></li>
                             <li><a href="#">My account</a></li>
                             <li><a href="#">Prefrences</a></li>
-                            <li><a href="#">Purchase</a></li>
+                            
                         </ul>
-                        <ul className={footerStyles.box}>
-                            <li className={footerStyles.link_name}>Courses</li>
-                            <li><a href="#">HTML & CSS</a></li>
-                            <li><a href="#">JavaScript</a></li>
-                            <li><a href="#">Photography</a></li>
-                            <li><a href="#">Photoshop</a></li>
-                        </ul>
+                       
                         <ul className={`${footerStyles.box} ${footerStyles['input-box']}`}>
-                            <li className={footerStyles.link_name}>Subscribe</li>
+                           
                             <li><input type="text" placeholder="Enter your email" /></li>
                             <li><input type="button" value="Subscribe" /></li>
                         </ul>
@@ -66,7 +60,7 @@ const Footer = () => {
                 <div className={footerStyles['bottom-details']}>
                     <div className={footerStyles.bottom_text}>
                         <span className={footerStyles.copyright_text}> Copyright © 2023
-                            <Link href="/>"> Thapa Technical.</Link> All rights reserved </span>
+                            <Link href="/>"> dFlix</Link> All rights reserved </span>
                         <span className={footerStyles.policy_terms}>
                           <Link href="/">Privacy policy</Link>
                           <Link href="/">Terms & condition</Link>

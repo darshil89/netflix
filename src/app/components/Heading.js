@@ -7,7 +7,7 @@ const Heading = () => {
     <header className={classes.main_header}>
       <div className={classes.navbar_brand}>
         <Link href={"/"}>
-          <Image src="/logo.png" alt="logo" width={150} height={40} />
+          <h1>dFlix</h1>
         </Link>
       </div>
       <Nav/>

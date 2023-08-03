@@ -1,10 +1,18 @@
 import ContactForm from "../components/ContactForm";
 import styles from "./contact.module.css";
 import ContactCard from "../components/ContactCard";
-
+import Head from "next/head";
 const Contact = () => {
   return (
     <>
+
+<Head>
+        <title>dContact</title>
+        <meta
+          name="description"
+          content="Try contacting us"
+        />
+      </Head>
       <div className={styles.container}>
         <h1>Contact Us</h1>
         <ContactCard />
